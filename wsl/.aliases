@@ -1,0 +1,7 @@
+alias g='git'
+alias gcb='git checkout -b'
+alias gco='git checkout'
+alias gs='git status'
+alias gfr='git pull -r'
+
+alias k='kubectl'
