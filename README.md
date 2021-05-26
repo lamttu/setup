@@ -9,6 +9,6 @@
 This assume you have set up your aws credentials and kubectl config on windows
 
 1. Run the scripts file to set up aws and kubectl
-2. Run `ln -s /mnt/c/dev/windows-setup/wsl/.aliases .bash_aliases` to copy the aliases to wsl
-3. Add things in `.bashrc` into your `.bashrc`
-4. Run `. ~/.bash_rc` 
+2. Run `ln -s /mnt/c/dev/windows-setup/wsl/.aliases .aliases` to copy the aliases to wsl
+3. Install zsh following https://github.com/lamttu/prezto 
+3. Add things in `.zshrc` into your `.zshrc`
