@@ -16,3 +16,9 @@ ln -s /mnt/c/Users/lam.tu/.kube/ ~/.kube
 # Install fzf
 sudo apt-get install fzf
 
+# Install awsume
+sudo apt-get install python3-pip
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+sudo apt-get install python3-venv  
+pipx install awsume
