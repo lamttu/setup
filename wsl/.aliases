@@ -4,5 +4,6 @@ alias gco='git checkout'
 alias gs='git status'
 alias gfr='git pull -r'
 alias gl='git log --topo-order --graph --decorate --pretty=format:"%C(green)%h%C(reset) %s%C(red)%d%C(reset)"'
+alias gcm='git commmit -m"
 
 alias k='kubectl'

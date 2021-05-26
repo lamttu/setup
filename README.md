@@ -6,9 +6,14 @@
 
 # Set up WSL
 
-This assume you have set up your aws credentials and kubectl config on windows
+This assumes you have set up your aws credentials and kubectl config on windows
 
-1. Run the scripts file to set up aws and kubectl
-2. Run `ln -s /mnt/c/dev/windows-setup/wsl/.aliases .aliases` to copy the aliases to wsl
-3. Install zsh following https://github.com/lamttu/prezto 
-3. Add things in `.zshrc` into your `.zshrc`
+1. Clone this repo and create symbolic links 
+    - Run `ln -s /mnt/c/dev/windows-setup/wsl/.aliases .aliases` to copy the aliases to wsl
+    - Run `ln -s /mnt/c/Users/lam.tu/.git-co-authors .git-co-authors` to copy .git-co-authors
+    - Run `ln -s /mnt/c/dev/windows-setup/wsl/functions ~/functions` to copy functions
+2. Install zsh following https://github.com/lamttu/prezto
+    - Setting up zsh based on the fork should give you the correct `.zshrc`. But just in case i include `.zshrc` here 
+3. Run the install.sh file
+
+    

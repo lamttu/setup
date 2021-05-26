@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
 
@@ -8,3 +8,11 @@ sudo ./aws/install
 
 # This will install aws into /usr/local/bin/ so we will add that to path
 export PATH=$PATH:/usr/local/bin
+
+
+# Create a symbolic link between windows and .kube
+ln -s /mnt/c/Users/lam.tu/.kube/ ~/.kube
+
+# Install fzf
+sudo apt-get install fzf
+
