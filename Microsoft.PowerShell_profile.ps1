@@ -44,6 +44,16 @@ function gco() {
     git checkout $args
 }
 
+Remove-Item "Alias:gcm" -Force
+function gcm() { 
+	git commit --message $args 
+}
+
+Remove-Item "Alias:gl" -Force
+function gl() {
+    git log --topo-order --graph --decorate --pretty=format:"%C(green)%h%C(reset) %s%C(red)%d%C(reset)"
+}
+
 function g() {
     git $args
 }
