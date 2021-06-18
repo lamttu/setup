@@ -69,7 +69,7 @@ function kl() {
 	if ([string]::IsNullOrWhitespace($selected)) {
         Write-Host "No pods matches the provided pattern" -Foreground Yellow
     } else {
-        kubectl logs -f $selected.split(" ")[0]
+        kubectl logs -f $selected.split(" ")[0] $args
     }	
 }
 
